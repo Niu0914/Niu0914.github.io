@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="牛景萱 的个人简历与研究经历">
+  <title>牛景萱｜个人简历</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">牛景萱</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav">菜单</button>
+    <nav id="nav"><a href="#about">个人信息</a><a href="#education">教育背景</a><a href="#experience">实习经历</a><a href="#research">研究经历</a><a href="#honors">荣誉技能</a><a class="resume-link" href="documents/resume.pdf" download>下载简历</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" id="about">
+      <img src="assets/portrait.jpg" alt="牛景萱 的职业肖像" width="800" height="800">
+      <div>
+        <p class="label">MULTIMODAL AI RESEARCHER</p>
+        <h1>牛景萱</h1>
+        <p class="role">清华大学硕士研究生｜多模态大模型研究与工程</p>
+        <p class="summary">研究方向包括全模态模型、音视频事件理解、多模态大语言模型、扩散模型与高效图像修复。具备从多模态数据构建、模型预训练与后训练，到多机多卡分布式训练、评测及真实业务落地的完整实践经验。</p>
+        <div class="contact"><a href="mailto:jingxuan091402@gmail.com">jingxuan091402@gmail.com</a><span>+86 18906385690</span><span>深圳，中国</span><a class="external" href="https://scholar.google.com.hk/citations?user=hvSJKtsAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div>
+        <div class="actions"><a class="primary" href="documents/resume.pdf" download>下载 PDF 简历</a><a href="#experience">查看实习经历</a></div>
+      </div>
+    </section>
+
+    <div class="page-layout">
+      <aside class="sidebar">
+        <div><h2>研究方向</h2><ul><li>全模态大模型</li><li>多模态理解与生成</li><li>语音交互与模态对齐</li><li>Agentic RL</li><li>扩散模型与图像增强</li></ul></div>
+        <div><h2>技术能力</h2><dl><dt>训练范式</dt><dd>CPT、CT、SFT、GRPO、PPO</dd><dt>训练框架</dt><dd>PyTorch、Megatron-LM、DeepSpeed、ms-swift</dd><dt>编程语言</dt><dd>Python、C++、Java、SQL、JavaScript</dd><dt>工程工具</dt><dd>CUDA、Git、Docker、Linux、LaTeX</dd></dl></div>
+        <div><h2>语言</h2><p>中文（母语）<br>英语（流利，IELTS 6.5）</p></div>
+      </aside>
+
+      <div class="content">
+        <section class="section" id="education">
+          <header class="section-title"><span>01</span><h2>教育背景</h2></header>
+          <article class="education-item"><div class="item-head"><div class="institution-with-logo"><img src="assets/tsinghua.svg" alt="清华大学校徽" width="48" height="48"><div><h3>清华大学</h3><p>深圳国际研究生院｜数据科学与信息技术｜硕士</p></div></div><time>2024.08 — 2027.06</time></div><ul><li>推免录取排名 3 / 41，导师：<a class="inline-link" href="https://andytang15.github.io/" target="_blank" rel="noopener noreferrer">唐彦嵩教授 ↗</a></li><li>研究方向：全模态模型、音视频事件理解、多模态大语言模型、扩散模型与加速图像修复。</li></ul></article>
+          <article class="education-item"><div class="item-head"><div class="institution-with-logo"><img src="assets/sustech.png" alt="南方科技大学校徽" width="72" height="48"><div><h3>南方科技大学</h3><p>计算机科学与工程系｜智能科学与技术｜学士</p></div></div><time>2020.08 — 2024.06</time></div><ul><li>GPA 3.8 / 4.0，专业排名 1 / 28，获 2024 届优秀毕业生；导师：<a class="inline-link" href="https://www.sustech.edu.cn/zh/faculties/liujiang.html" target="_blank" rel="noopener noreferrer">刘江教授 ↗</a></li><li><strong>核心专业课程：</strong>机器学习（100）、智能机器人（100）、计算机操作系统（99）、面向对象分析与设计（98）、多媒体信息处理（98）、计算机网络（98）、算法设计与分析（96）、数据库原理（95）。</li></ul></article>
+        </section>
+
+        <section class="section" id="experience">
+          <header class="section-title"><span>02</span><h2>实习经历</h2></header>
+
+          <article class="experience-item">
+            <div class="item-head"><div class="company-with-logo brand-lockup"><span class="brand-icon wide"><img src="assets/bytedance.svg" alt="字节跳动 Logo" width="48" height="48"></span><span class="brand-icon"><img src="assets/douyin.svg" alt="抖音 Logo" width="48" height="48"></span><div><p class="company">字节跳动｜抖音直播</p><h3>多模态内容理解｜暑期实习</h3></div></div><time>2026.07 — 至今</time></div>
+            <div class="detail"><h4>LiveVLM 多模态基座</h4><p>参与抖音直播多模态大模型基座建设，围绕直播切片 Caption 生成、主播画像构建、直播间评论与 ASR 内容理解、高光片段提取及音频语义解析，形成面向多类直播场景的结构化、可解释语义表征。</p></div>
+            <div class="detail"><h4>Caption 数据生产闭环</h4><p>负责直播 Caption SFT 数据的合成与生产闭环。以原始 10 分钟直播切片及多模态证据信息为输入，设计覆盖受众、内容类型、互动方式、场景等 6 个核心维度及垂类扩展维度的 Schema，并搭建自动化数据合成管线。</p></div>
+            <div class="detail"><h4>多阶段训练与蒸馏</h4><p>协助完成 CPT → SFT → RL 的 Teacher 模型调优，并参与基于 MOPD 的模型压缩实践，将多维 Caption 生成与理解能力提炼至统一 Student 基座，以支持线上高并发推理。</p></div>
+            <div class="keywords"><span>VLM</span><span>Caption</span><span>SFT</span><span>RL</span><span>Model Distillation</span></div>
+          </article>
+
+          <article class="experience-item">
+            <div class="item-head"><div class="company-with-logo brand-lockup"><span class="brand-icon wide"><img src="assets/tencent.svg" alt="腾讯 Logo" width="48" height="48"></span><span class="brand-icon"><img src="assets/yuanbao.png" alt="腾讯元宝 App Logo" width="48" height="48"></span><div><p class="company">腾讯｜CSIG 元宝产品部｜多模态技术中心</p><h3>语音—文本多模态大模型｜暑期实习</h3></div></div><time>2026.03 — 2026.06</time></div>
+            <div class="detail"><h4>TeaChat V2 全链路训练</h4><p>基于 Qwen3-30B-A3B 与 MoE Conformer V2 训练语音—文本多模态大模型，覆盖预训练、Continued Training 与 SFT 全链路，支持 ASR、TTS、语音翻译和音文交错理解等任务。</p></div>
+            <div class="detail"><h4>混合序列数据管线</h4><p>统一组织 ASR、TTS、Interleaved、S2T、T2T、Hotword 等 6+ 类任务数据，以音频与文本 Token 的统一序列支持跨模态学习；引入含 &lt;thought&gt; 的 CoT 样本，并兼容 Speech-to-Text+Speech 与 Text-to-Text+Speech 两类生成范式。</p></div><div class="detail"><h4>指令与长尾数据</h4><p>建设覆盖 11 个领域、3 类能力维度与 6 类任务形式的指令数据，设计事实陈述、问答及结构化文本三类知识扩展样本，并补充 5 类异常输入；建立线上 Bad Case 回流、质量筛选与再生产机制。</p></div><div class="detail"><h4>CT 到 SFT 适配</h4><p>在 CT 阶段采用对话化序列模板与概率式 System Prompt 插入，降低向标准对话格式迁移的突变；通过任务独立验证集、损失加权与纯文本 Replay，兼顾语音模态对齐和语言能力保持。</p></div>
+            <div class="detail"><h4>大规模分布式训练</h4><p>基于 Megatron-LM 采用 TP / PP / EP / CP 多维并行，适配动态启停 CoT 与 Tool Call 的底层训练代码；落地 T2TS 辅助 S2TS 的共享参数训练范式，通过独立损失加权、激活重计算及流水线负载均衡，实现 28 机训练的稳定高效迭代。</p></div>
+            <div class="keywords"><span>Qwen3</span><span>MoE Conformer</span><span>Megatron-LM</span><span>Distributed Training</span></div>
+          </article>
+
+          <article class="experience-item">
+            <div class="item-head"><div class="company-with-logo brand-lockup"><span class="brand-icon wide"><img src="assets/xpeng-official.svg" alt="小鹏汽车 Logo" width="48" height="48"></span><span class="brand-icon iron"><img src="assets/iron-robot.png" alt="小鹏 AI 机器人 IRON" width="48" height="72"></span><div><p class="company">小鹏机器人中心｜多模态智能部</p><h3>端到端全双工大模型｜科研实习生</h3></div></div><time>2025.09 — 2026.02</time></div>
+            <div class="detail"><h4>Omni 全双工语音交互</h4><p>面向小鹏 R02 量产版本人形机器人，设计、训练并迭代 Omni 端到端交互模型。基于 Thinker–Talker 架构注册 [waiting]、[speak]、[continue] 三类控制 Token，每 2 秒增量预测交互状态，建模流式听说切换、实时打断与续说生成。</p></div>
+            <div class="detail"><h4>端到端数据与评测闭环</h4><p>设计解耦、可配置的多模态数据生产管线，集成人设、RAG 检索、动作及交互意图识别、情绪理解、记忆重载和逻辑增强模块，覆盖基础对话、动作、念稿、RAG、多人设、短问答与噪声增强等 14+ 类训练数据；协同搭建覆盖 11 个语音 Benchmark 的 VLMEvalKit 评测体系。</p></div>
+            <div class="detail"><h4>配置化数据生产</h4><p>将按任务耦合的脚本重构为 Data Unit、Meta Data Schema 与任务模板三层，新场景可通过单份配置组合多人交互、情绪、远场噪声和房间混响，并支持 Bad Case 按元数据反查。</p></div><div class="detail"><h4>重叠语音与鲁棒性</h4><p>综合真人多人语音、单人语料可控拼接与多音色 TTS 混音构造重叠交互，使用 VAD 与人工抽检控制轮次边界；统一前景人声、背景人声、环境噪声与 RIR 房间混响，并支持 32 种用户音色注册。</p></div><div class="detail"><h4>RAG 与模式解耦</h4><p>在离线数据中注入检索上下文和部分无关证据，训练模型消费并甄别检索结果；通过 System Prompt 区分事实、共情、念稿及自由对话模式，降低过度共情和书面化表达对通用对话的干扰。</p></div>
+            <div class="detail"><h4>SFT 与强化学习</h4><p>基于 ms-swift 完成 Qwen3-Omni 多机多卡 SFT 与 GRPO 后训练，并针对不同 Loss 设计开展消融实验；处理长窗口训练、异步推理、3D RoPE 兼容与推理峰值显存等工程问题。自建对话评测集中，打断与续说预测准确率超过 98%，同时保持视觉理解、多轮推理和数学能力等通用指标。</p></div>
+            <div class="keywords"><span>Qwen3-Omni</span><span>Full Duplex</span><span>SFT</span><span>GRPO</span><span>Speech AI</span></div>
+          </article>
+
+          <article class="experience-item compact">
+            <div class="item-head"><div class="company-with-logo"><span class="brand-icon wide"><img src="assets/baidu.png" alt="百度 Logo" width="60" height="40"></span><span class="brand-icon wide"><img src="assets/luobokuaipao.png" alt="萝卜快跑 Apollo Go Logo" width="70" height="40"></span><div><p class="company">百度｜智能驾驶主线研发组</p><h3>点云语义分割｜算法实习生</h3></div></div><time>2023.06 — 2023.10</time></div>
+            <ul><li>负责高精地图 Occupancy Grid Map 真值生成，并调研 SemanticKITTI、nuScenes 等基准，围绕复杂路况与静态障碍物筛选点云语义分割方案。</li><li>基于 SphereFormer 优化 LiDAR 点云语义分割，改善远距离稀疏点云的特征建模；成果部署于 Apollo ANP3.0 智驾平台并服务“萝卜快跑”车队。</li></ul>
+            <div class="keywords"><span>LiDAR</span><span>SphereFormer</span><span>Apollo</span></div>
+          </article>
+
+          <article class="experience-item compact">
+            <div class="item-head"><div class="company-with-logo"><span class="brand-icon"><img src="assets/nus-crest.png" alt="新加坡国立大学校徽" width="48" height="48"></span><div><p class="company">新加坡国立大学｜暑期研习</p><h3>强化学习驱动的自适应视频流</h3></div></div><time>2022.05 — 2022.08</time></div>
+            <ul><li>使用 TensorFlow 实现并比较 PG、PPO、A3C 三类强化学习算法，以带宽、时延、拥塞窗口和缓冲区状态进行动态码率决策。</li><li>通过 Trace-driven Simulation 迭代策略，并将模型部署至 dash.js 播放器；作为唯一完成全流程实现的团队获得项目 Gold Prize。</li></ul>
+          </article>
+        </section>
+
+        <section class="section" id="research">
+          <header class="section-title"><span>03</span><h2>研究经历与成果</h2></header>
+          <article class="research-group">
+            <div class="research-stage">PART 01</div>
+            <div class="item-head"><div><h3>南方科技大学 iMED 实验室</h3><p>医学影像生成与无监督去噪｜导师：<a class="inline-link" href="https://www.sustech.edu.cn/zh/faculties/liujiang.html" target="_blank" rel="noopener noreferrer">刘江教授 ↗</a></p></div><time>2022.06 — 2023.06</time></div>
+            <ul><li>面向眼科前节光学相干断层扫描（AS-OCT）图像，研究无成对数据条件下的散斑噪声去除，同时保留细微解剖结构。</li><li>探索基于 CycleGAN 的跨域风格迁移；进一步研究扩散模型无监督去噪框架，通过马尔可夫逆采样与噪声统计建模改善结构保真度。</li><li>相关成果发表于医学影像顶级会议 MICCAI 2023（CCF-B）。</li></ul>
+            <div class="stage-paper"><span>代表成果</span><a href="https://arxiv.org/abs/2306.17717" target="_blank" rel="noopener noreferrer"><b>Content-Preserving Diffusion Model ↗</b><small>Unsupervised AS-OCT Image Despeckling · MICCAI 2023</small></a></div>
+          </article>
+          <article class="research-group">
+            <div class="research-stage">PART 02</div>
+            <div class="item-head"><div><h3>清华大学 Intelligent Vision Group</h3><p>高效图像生成与恢复｜保研阶段｜导师：<a class="inline-link" href="https://andytang15.github.io/" target="_blank" rel="noopener noreferrer">唐彦嵩教授 ↗</a></p></div><time>2023.09 — 2024.06</time></div>
+            <ul><li>研究基于 Rectified Flow 的生成式图像增强框架，利用预训练扩散模型的生成先验，统一处理去噪、去雾、去模糊、去雨与低光增强任务。</li><li>提出动态噪声控制的分数匹配蒸馏方法，缓解更新方向不确定与生成误差累积问题，实现快速、高保真的一步图像恢复。</li><li>相关工作 InstaRevive 发表于 ICLR 2025。</li></ul>
+            <div class="stage-paper"><span>代表成果</span><a href="https://openreview.net/forum?id=G1CN7R5qwE" target="_blank" rel="noopener noreferrer"><b>InstaRevive ↗</b><small>One-Step Image Enhancement via Dynamic Score Matching · ICLR 2025</small></a></div>
+          </article>
+          <article class="research-group">
+            <div class="research-stage">PART 03</div>
+            <div class="item-head"><div><h3>清华大学 Intelligent Vision Group</h3><p>多模态理解、视听学习与模态对齐｜硕士阶段｜导师：<a class="inline-link" href="https://andytang15.github.io/" target="_blank" rel="noopener noreferrer">唐彦嵩教授 ↗</a></p></div><time>2024.09 — 至今</time></div>
+            <ul><li>聚焦开放词汇音视频事件理解与跨模态语义对齐，将事件定位解耦为开放集分类与多模态一致性检测，缓解耦合优化瓶颈。</li><li>开展 Agentic RL 视觉指代推理与强化微调时空视频定位研究，探索借助视觉工具修正错误预测，以及使用边界框进行显式时空推理。</li><li>探索 Omni 模型的自适应视听 Token 压缩，通过统计离群检测驱动的语义边界切分与层级化 Token 剪枝提升推理效率。</li><li>参与可解释厨房合规分析研究，构建面向多模态大模型的场景理解与违规定位评测。</li></ul>
+          </article>
+          <div class="publications">
+            <article><span>Agentic RL</span><h3><a href="https://arxiv.org/abs/2512.06373" target="_blank" rel="noopener noreferrer">VG-Refiner ↗</a></h3><p>Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning</p></article>
+            <article><span>Video Grounding</span><h3><a href="https://arxiv.org/abs/2511.21375" target="_blank" rel="noopener noreferrer">Thinking With Bounding Boxes ↗</a></h3><p>Enhancing Spatio-Temporal Video Grounding via Reinforcement Fine-Tuning</p></article>
+            <article><span>Audio-Visual</span><h3>MDSL</h3><p>Modality-Decoupled Synergistic Learning for Open-Vocabulary Audio-Visual Event Localization</p></article>
+          </div>
+        </section>
+
+        <section class="section" id="honors">
+          <header class="section-title"><span>04</span><h2>奖励与荣誉</h2></header>
+          <div class="honors"><p><b>2024</b> 南方科技大学优秀毕业生</p><p><b>2024</b> 美团低空经济挑战赛创新赛道第三名</p><p><b>2024</b> 华为智能基座奖学金</p><p><b>2021—2023</b> 南方科技大学优秀奖学金（前 10%）</p><p><b>2023</b> 美国大学生数学建模竞赛 Honorable Mention</p><p><b>2022</b> 新加坡国立大学暑期项目金奖</p></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer><p>© <span id="year">2026</span> 牛景萱</p><a href="mailto:jingxuan091402@gmail.com">联系我</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
