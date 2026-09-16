@@ -148,12 +148,6 @@ h1, h2, h3, h4, p { margin: 0; }
 .paper-wide .paper-description { max-width: 720px; }
 
 /* Experience */
-.impact-strip { display: grid; grid-template-columns: repeat(3, 1fr); margin: 29px 0; background: linear-gradient(110deg, var(--accent-dark), var(--accent)); color: white; border-radius: 2px; border-top: 2px solid #b597c8; padding: 26px 0; }
-.impact-strip > div { padding: 0 21px; }
-.impact-strip > div + div { border-left: 1px solid #ffffff30; }
-.impact-strip strong { font: 400 38px/1.3 var(--serif); letter-spacing: -.045em; }
-.impact-strip strong span { font: 400 18px var(--sans); letter-spacing: 0; }
-.impact-strip p { font-size: 10px; margin-top: 8px; color: #eadcf1; line-height: 1.6; }
 .experience-card { border: 1px solid var(--line); border-radius: 3px; background: var(--surface); padding: 28px 28px 23px; margin-top: 18px; }
 .experience-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 15px; padding-bottom: 21px; border-bottom: 1px solid #eee7f2; }
 .organization { display: flex; align-items: center; gap: 12px; min-width: 0; }
@@ -367,11 +361,6 @@ footer a > span { margin-left: 14px; }
   .paper-top { margin-bottom: 15px; }
   .paper-wide { grid-column: auto; }
   .paper-bottom { padding-top: 20px; }
-  .impact-strip { padding: 19px 0; }
-  .impact-strip > div { padding-inline: 12px; }
-  .impact-strip strong { font-size: clamp(26px, 7.5vw, 37px); }
-  .impact-strip strong span { font-size: 13px; }
-  .impact-strip p { font-size: 8px; line-height: 1.8; }
   .experience-card { padding: 21px 18px; margin-top: 15px; }
   .experience-head { flex-wrap: wrap; gap: 9px; padding-bottom: 17px; }
   .organization h3 { font-size: 16px; }
@@ -448,8 +437,8 @@ footer a > span { margin-left: 14px; }
   .experience-card { break-inside: auto; }
   .experience-details::details-content { content-visibility: visible; }
   .experience-details .detail-body { display: block; }
-  .impact-strip, .contact-section { background: #f3eef6; color: #111; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-  .impact-strip p, .contact-section .eyebrow, .contact-copy > p:not(.eyebrow), .contact-meta > span, .contact-resume { color: #333; }
+  .contact-section { background: #f3eef6; color: #111; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .contact-section .eyebrow, .contact-copy > p:not(.eyebrow), .contact-meta > span, .contact-resume { color: #333; }
   .contact-section { padding: 22px; break-inside: avoid; }
   .contact-section h2 { font-size: 20px; }
   .contact-email { font-size: 14px; }
