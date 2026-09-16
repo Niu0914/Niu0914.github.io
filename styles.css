@@ -187,6 +187,7 @@ details[open] > summary .details-icon::after { transform: rotate(0); }
 .degree { font-size: 9px; color: var(--muted); padding: 2px 8px; border: 1px solid var(--line); border-radius: 3px; }
 .education-card h3 { font: 600 27px/1.5 var(--chinese-serif); letter-spacing: .07em; }
 .school-en { font-size: 8px; line-height: 1.6; min-height: 27px; letter-spacing: .07em; color: var(--muted); margin-top: 5px; }
+.school-description { font-size: 12px; line-height: 1.85; color: var(--body); margin-top: 10px; }
 .education-major { font-size: 12px; color: var(--body); margin-top: 12px; }
 .education-card time { display: block; font-size: 10px; color: var(--muted); margin-top: 11px; }
 .education-highlight { padding-top: 16px; margin-top: 18px; border-top: 1px solid var(--line); font-size: 10px; }
