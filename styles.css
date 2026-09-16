@@ -241,10 +241,17 @@ details[open] > summary .details-icon::after { transform: rotate(0); }
 .life-stories .eyebrow { font-size: 9px; color: var(--muted); }
 .life-stories h3 { margin-top: 9px; font: 600 21px/1.6 var(--chinese-serif); }
 .life-stories article > p:last-child { margin-top: 10px; font-size: 13px; line-height: 2; color: var(--body); }
+.life-photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 22px; }
+.life-photo-pair figure { margin: 0; min-width: 0; }
+.life-photo-pair img { width: 100%; height: 360px; object-fit: cover; object-position: center; border-top: 2px solid #b599c6; }
+.life-photo-pair figure:first-child img { object-position: center 40%; }
+.cat-photos img { object-position: center 35%; }
+.life-photo-pair figcaption { padding-top: 8px; font-size: 9px; line-height: 1.7; color: var(--muted); }
 @media (max-width: 600px) {
   .life-intro { padding: 20px; }
   .life-intro h3 { font-size: 23px; }
   .life-stories { grid-template-columns: 1fr; gap: 23px; }
+  .life-photo-pair img { height: 285px; }
 }
 
 /* Contact and footer */
