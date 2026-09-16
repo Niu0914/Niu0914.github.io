@@ -232,6 +232,21 @@ details[open] > summary .details-icon::after { transform: rotate(0); }
 .honors-list > div > span:nth-child(2) { font-size: 12px; }
 .honor-category { justify-self: end; font-size: 9px; color: #927d9f; }
 
+/* Personal life */
+.life-intro { padding: 25px 28px; border-left: 2px solid #b599c6; background: linear-gradient(100deg, var(--soft), var(--paper)); }
+.life-intro h3 { font: 500 25px/1.6 var(--chinese-serif); color: var(--accent-dark); }
+.life-intro > p { max-width: 690px; margin-top: 12px; font-size: 13px; line-height: 2; color: var(--body); }
+.life-stories { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin-top: 28px; }
+.life-stories article { padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.life-stories .eyebrow { font-size: 9px; color: var(--muted); }
+.life-stories h3 { margin-top: 9px; font: 600 21px/1.6 var(--chinese-serif); }
+.life-stories article > p:last-child { margin-top: 10px; font-size: 13px; line-height: 2; color: var(--body); }
+@media (max-width: 600px) {
+  .life-intro { padding: 20px; }
+  .life-intro h3 { font-size: 23px; }
+  .life-stories { grid-template-columns: 1fr; gap: 23px; }
+}
+
 /* Contact and footer */
 .contact-section { padding: 44px 48px; border-top: 3px solid #b2986b; border-radius: 2px; display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; background: linear-gradient(115deg, var(--accent-dark), #65028d); color: white; }
 .contact-section .eyebrow { color: var(--gold); font-size: 9px; }
