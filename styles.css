@@ -37,7 +37,6 @@ h1, h2, h3, h4, p { margin: 0; }
 .topbar a:focus-visible, .topbar button:focus-visible { outline-color: var(--gold); }
 .nav-shell { width: min(1320px, calc(100% - 72px)); height: 85px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 600; white-space: nowrap; }
-.brand-mark { display: grid; place-items: center; width: 41px; height: 43px; color: var(--gold); border: 1px solid #bd9ace; font: 25px/1 var(--chinese-serif); }
 .brand-text { font: 600 20px/1.3 var(--chinese-serif); letter-spacing: .05em; }
 .brand-en { font: 400 13px var(--serif); letter-spacing: .02em; margin-left: 8px; }
 .brand-text small { display: block; margin-top: 7px; font: 400 8px/1.4 var(--sans); letter-spacing: .1em; color: #dfcfe9; }
@@ -325,7 +324,6 @@ footer a > span { margin-left: 14px; }
   .shell { width: calc(100% - 40px); }
   .nav-shell { width: calc(100% - 36px); height: 64px; }
   .brand { font-size: 12px; gap: 9px; }
-  .brand-mark { width: 32px; height: 36px; font-size: 22px; }
   .brand-text { font-size: 18px; }
   .brand-en { font-size: 11px; margin-left: 4px; }
   .brand-text small { font-size: 6px; margin-top: 5px; letter-spacing: .05em; }
