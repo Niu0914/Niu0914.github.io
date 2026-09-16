@@ -194,6 +194,9 @@ details[open] > summary .details-icon::after { transform: rotate(0); }
 .education-highlight > span { display: inline-block; margin-left: 13px; }
 .advisors { font-size: 10px; color: var(--body); margin-top: 11px; line-height: 2; }
 .advisors a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.high-school { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 28px; }
+.high-school h3 { font-size: 23px; margin-top: 9px; }
+.high-school .education-highlight { margin: 0; padding: 0; border: 0; font-size: 12px; }
 .course-details { border-bottom: 1px solid var(--line); }
 .course-details > summary { display: flex; justify-content: space-between; list-style: none; padding: 15px 2px; font-size: 11px; color: var(--body); }
 .course-details[open] > summary > span { transform: rotate(45deg); }
